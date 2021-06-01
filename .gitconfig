@@ -1,0 +1,11 @@
+[user]
+	email = spka2008@yandex.ru
+	name = serg
+[core]
+	autocrlf = input
+	safecrlf = warn
+	quotepath = off
+[alias]
+    hist = log --graph --date=format:'[%d/%m %H:%M]' --format=' %h %ad %s %d '
+
+
