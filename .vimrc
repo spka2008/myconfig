@@ -63,9 +63,15 @@ set shiftwidth=4
 set smarttab
 set expandtab
 
+"LEDGER
 au FileType ledger inoremap <silent> <Tab> <C-r>=ledger#autocomplete_and_align()<CR>
         au FileType ledger vnoremap <silent> <Tab> :LedgerAlign<CR>
 
 let g:ledger_align_at = 50
 let g:ledger_default_commodity='$'
 let g:ledger_bin = 'ledger'
+"END LEDGER
+
+"PowerLine
+
+let g:airline_powerline_fonts = 1
