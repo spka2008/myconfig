@@ -1,0 +1,2 @@
+%(date),,,%(payee),,%(quantity(amount*-1)),%(account),%(note)
+
