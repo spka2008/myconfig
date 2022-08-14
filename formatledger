@@ -1,2 +1,2 @@
-%(date),,,%(payee),,%(quantity(amount*-1)),%(account),%(note)
+%(date);;%(join(note));%(payee);;%(quantity(amount*-1));%(account);
 

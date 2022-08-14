@@ -4,7 +4,7 @@
 <cur key="1" flags="0" iso="RUB" name="Russian Ruble" symb="₽" syprf="0" dchar="," gchar=" " frac="2" rate="0" mdate="0"/>
 <grp key="1" name="Activ"/>
 <grp key="2" name="Credit"/>
-<account key="1" pos="1" type="2" curr="1" name="Cash" initial="36219.5" minimum="0" maximum="0" grp="1" rdate="738381"/>
+<account key="1" pos="1" type="2" curr="1" name="Cash" initial="36219.5" minimum="0" maximum="0" grp="1" rdate="738380"/>
 <account key="2" pos="2" type="1" curr="1" name="Megafone" bankname="Megafone(Раунд)" initial="2269.6900000000001" minimum="0" maximum="0" grp="1" rdate="738380"/>
 <account key="3" flags="2" pos="3" type="1" curr="1" name="Mir" bankname="Сбербанк" initial="87.519999999999996" minimum="0" maximum="0" grp="1" rdate="738380"/>
 <account key="4" pos="4" type="1" curr="1" name="Rifasen" bankname="Райфазен" initial="4.5800000000000001" minimum="0" maximum="0" grp="1" rdate="738380"/>
@@ -903,8 +903,6 @@
 <ope date="738380" amount="-134.99000000000001" account="1" st="2" payee="2" category="63" info=" buckwheat (гречка)"/>
 <ope date="738380" amount="-183.22" account="1" st="2" payee="2" category="63" info=" sausage"/>
 <ope date="738380" amount="-210" account="1" st="2" payee="5" category="57"/>
-<ope date="738381" amount="-40" account="1" paymode="3" st="2" payee="5" category="57"/>
-<ope date="738381" amount="-95" account="1" paymode="3" st="2" payee="7" category="59" info="Cockroach away"/>
 <ope date="738165" amount="-29" account="9" st="2" payee="11" category="61"/>
 <ope date="738166" amount="-26" account="9" st="2" payee="49" category="61"/>
 <ope date="738167" amount="-58" account="9" st="2" payee="11" category="61"/>
