@@ -1,0 +1,7 @@
+# /etc/default/keyboard
+XKBMODEL="pc105"
+XKBLAYOUT="us,ru"
+XKBVARIANT=""
+XKBOPTIONS="grp:lctrl_lwin_rctrl_menu, caps:swapescape"
+
+BACKSPACE="guess"
