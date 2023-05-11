@@ -1,0 +1,23 @@
+
+# Global properties
+separator=true
+separator_block_width=15
+#SCRIPT_DIR="~/.config/i3blocks/i3blocks-contrib"
+
+
+[ip-adress]
+command=curl -s https://ipinfo.io | grep -E ip\" | awk -F'"' '{print $4}'
+interval=3600
+
+[pacman-updates]
+command=~/.config/i3blocks/i3blocks-contrib/arch-update/arch-update
+markup=pango
+interval= 3600
+QUIET=true
+WATCH=^linux.* ^pacman.*
+AUR_YAY=true
+LABEL= 
+
+[time]
+command=date '+%Y-%m-%d %H:%M:%S'
+interval=1

@@ -1,0 +1,51 @@
+# i3blocks configuration file
+#
+# The i3blocks man page describes the usage of the binary,
+# and its website describes the configuration:
+#
+#     https://vivien.github.io/i3blocks
+
+
+# Global properties
+separator=true
+separator_block_width=15
+#SCRIPT_DIR="~/.config/i3blocks/i3blocks-contrib"
+
+
+
+#[usb]
+#command=~/.config/i3blocks/i3blocks-contrib/usb/usb
+#markup=pango
+#signal=1
+#interval=10
+##IGNORE_LIST=[]
+#IGNORE_LIST=["sda1"]
+##INFO_TEXT_COLOR=white
+##MOUNTED_COLOR=green
+##PLUGGED_COLOR=gray
+##LOCKED_COLOR=gray
+#UNLOCKED_NOT_MOUNTED_COLOR=yellow
+##PARTITIONLESS_COLOR=red
+##PARTITIONLESS_TEXT=no partitions
+##SEPARATOR=<span color='gray'> | </span>
+##LOCKED_INDICATOR= 
+##UNLOCKED_INDICATOR= 
+##READONLY_INDICATOR=ro
+##TRUNCATE_FS_LABELS=[not set by default, accepts +/- integers]
+#
+[usb2]
+command=~/.config/i3blocks/i3blocks-contrib/usb2.py
+markup=pango
+interval=10
+
+#[greetings]
+#color=#f5af19
+#command=echo "Hello, $USER!"
+#interval=once
+
+[wether]
+full_text=Wether
+command=~/.config/i3blocks/i3blocks-contrib/wttr.sh
+#curl -s 'wttr.in/Rostov-on-Don?format=%c/n&M'
+interval=3600
+
