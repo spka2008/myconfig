@@ -113,6 +113,7 @@ let g:ycm_filetype_blacklist = {'ledger': 1 }
 au FileType ledger inoremap <silent> <F1> <C-r>=ledger#autocomplete_and_align()<CR>
         au FileType ledger vnoremap <silent> <F1> :LedgerAlign<CR>
 
+au FileType ledger noremap <silent><buffer> <2-LeftMouse> :call ledger#transaction_state_toggle(line('.'), ' *')<CR>
 let g:ledger_align_at = 50
 let g:ledger_default_commodity='$'
 let g:ledger_bin = 'ledger'
